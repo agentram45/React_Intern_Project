@@ -10,7 +10,9 @@ const LoginDetails = () => {
                         <p>Account Settings</p>
                     </div>
                     <div className= {styles.details}>
-                        <div className= {styles.pics}></div>
+                        <div className= {styles.pics}>
+                            <img src="./images/Ellipse 114.png" alt="" />
+                        </div>
                         <div className= {styles.acctdetails}>
                             <h1>Marry Doe</h1>
                             <p>Marry@Gmail.Com</p>

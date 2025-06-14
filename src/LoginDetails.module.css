@@ -52,11 +52,26 @@
 }
 
 .pics {
+    position: relative;
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     margin-left: 4%;
+    z-index: 0;
+}
+
+.pics::after {
+    content: " ";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    left: 60px;
+    bottom: -2px;
+    background-image: url("./images/Group 1585.png");
+    z-index: 10;
+
 }
 
 .acctdetails {
