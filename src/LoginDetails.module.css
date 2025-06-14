@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.fullpage3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainpage3 {
+    height: 80vh;
+    width: 350px;
+    background-color: #F7F8F9;
+    border: 2px solid #CBCBCB;
+}
+
+.content3 {
+    height: 40%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.heading3 {
+    height: 28%;
+    width: 99.1%;
+    background-color: white;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 0;
+}
+
+.heading3 p {
+    margin-left: 15px;
+}
+
+.details {
+    height: 50%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pics {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin-left: 4%;
+}
+
+.acctdetails {
+    margin-left: 5%;
+}
+
+.acctdetails h1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.acctdetails p {
+    font-size: 0.9rem;
+}
+
+.matter {
+    height: 40%;
+    width: 90%;
+    opacity: 0.8;
+    margin-left: 5%;
+    border-bottom: 2px dotted #CBCBCB;
+    /* background-color: coral; */
+    font-size: 0.9rem;
+}
+
+.matter::selection {
+    background-color: #6C25FF;
+    color: white;
+}
